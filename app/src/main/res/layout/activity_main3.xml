@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="651dp"
+        android:text="Verify your phone number"
+        android:textColor="#2F6532"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="442dp"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="131dp"
+        android:layout_marginBottom="533dp"
+        android:text=" Whatsapp will send an SMS to verify your mobile number. Enter your phone number"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="329dp"
+        android:text="Enter 4-digit code"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="324dp"
+        android:layout_marginBottom="238dp"
+        android:ems="1"
+        android:hint="0"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:layout_width="83dp"
+        android:layout_height="106dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="296dp"
+        android:layout_marginBottom="441dp"
+        android:hint="+91"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="238dp"
+        android:ems="1"
+        android:hint="0"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="239dp"
+        android:ems="1"
+        android:hint="0"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="239dp"
+        android:ems="1"
+        android:hint="0"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="106dp"
+        android:text="login"
+        android:backgroundTint="@color/teal_200"/>
+</RelativeLayout>
